@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#071b39">
+  <meta name="description" content="Nacens Tech: conectamos talentos, formamos equipos y creamos empresas tecnológicas en Jujuy.">
+  <title>Nacens Tech — Talento que se une</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <header class="topbar">
+    <div class="container nav-inner">
+      <a href="#inicio" class="brand" aria-label="Nacens Tech inicio">
+        <span class="brand-mark">
+          <svg viewBox="0 0 60 60" aria-hidden="true">
+            <defs>
+              <linearGradient id="ng" x1="0" y1="1" x2="1" y2="0">
+                <stop stop-color="#0755eb"/>
+                <stop offset=".6" stop-color="#06b4ed"/>
+                <stop offset="1" stop-color="#42eb91"/>
+              </linearGradient>
+            </defs>
+            <path fill="url(#ng)" d="M8 48V14c0-4 5-6 8-3l25 25V16h11v32c0 5-6 7-9 4L19 27v21z"/>
+            <path fill="#43e78e" d="M29 12c5-10 13-11 23-10-2 12-9 17-23 17z"/>
+          </svg>
+        </span>
+        <span class="brand-words">
+          <strong>Nacens</strong>
+          <small>TECH</small>
+        </span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Navegación principal">
+        <a href="#inicio" data-nav="inicio">Inicio</a>
+        <a href="#como-funciona" data-nav="como-funciona">Cómo funciona</a>
+        <a href="#publicos" data-nav="publicos">Para quién es</a>
+        <a href="#equipos" data-nav="equipos">Equipos</a>
+        <a href="#desafios" data-nav="desafios">Desafíos</a>
+        <a href="#oportunidades" data-nav="oportunidades">Oportunidades</a>
+        <a href="#acompanamiento" data-nav="acompanamiento">Acompañamiento</a>
+        <a href="#contacto" data-nav="contacto">Contacto</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="btn btn-outline btn-sm" data-action="login">Ingresar</button>
+        <button class="btn btn-primary btn-sm" data-action="register">Crear cuenta</button>
+        <button id="menuToggle" class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="app"></main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <a class="brand" href="#inicio">
+          <span class="brand-mark">✦</span>
+          <span class="brand-words">
+            <strong>Nacens</strong>
+            <small>TECH</small>
+          </span>
+        </a>
+        <p>Talento. Equipos. Empresas.<br>Una iniciativa para impulsar la economía del conocimiento en Jujuy.</p>
+      </div>
+      <div>
+        <b>Explorar</b>
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#equipos">Equipos</a>
+        <a href="#oportunidades">Oportunidades</a>
+      </div>
+      <div>
+        <b>Proyecto</b>
+        <a href="#acompanamiento">Acompañamiento</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#referencias">Ver mockups originales</a>
+      </div>
+      <div>
+        <b>Nacens Tech</b>
+        <span>Jujuy, Argentina</span>
+        <span>Maqueta demostrativa · 2026</span>
+      </div>
+    </div>
+    <div class="container footer-bottom">© 2026 Nacens Tech · Prototipo de demostración. Los perfiles, testimonios y proyectos son ficticios.</div>
+  </footer>
+
+  <div id="modalRoot" class="modal-root" aria-live="polite"></div>
+  <script src="app.js" defer></script>
+</body>
+</html>
